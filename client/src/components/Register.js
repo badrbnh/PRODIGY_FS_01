@@ -41,7 +41,7 @@ export default function Register() {
         }
         if (isSuccess || user) {
             console.log("User registered successfully");
-            navigate("/");
+            navigate("/login");
         }
         dispatch(reset());
 
